@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5cdb95;
+  color: #edf5e1;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 3em;
+}
+
+h2 {
+  padding-bottom: 40px;
+  font-size: 2em;
+}
+button.get-activity {
+  background-color: #5cdb95;
+  padding: 10px;
+  color: #edf5e1;
+  border: 3px solid #edf5e1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5em;
+}
+
+button.get-activity:hover {
+  cursor: pointer;
+  background-color: #379683;
+}
+button.get-activity:focus {
+  outline: none;
+}
+
+.filter {
+  margin: 1em;
+}
+label {
+  font-size: 1.3em;
+  padding-left: 1.5em;
+}
+
+select {
+  cursor: pointer;
+  background-color: #5cdb95;
+  color: #edf5e1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.2em;
+  border: 2px solid #edf5e1;
+}
+
+select:focus {
+  outline: none;
+}
+
+.random-activity {
+  padding: 60px;
+  font-size: 2.5em;
+}

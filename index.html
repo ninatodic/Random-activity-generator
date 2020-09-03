@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Activity Generator</title>
+  </head>
+  <body>
+    <h1 class="main-title">I'm Bored</h1>
+    <h2 class="subtitle">Random Activity Generator</h2>
+    <button class="get-activity">Give me Idea what to do</button>
+
+    <div class="filter">
+      <label for="type">Type of activity:</label>
+      <select name="type" id="type">
+        <option value="all">All types</option>
+        <option value="education">Education</option>
+        <option value="recreational">Recreational</option>
+        <option value="social">Social</option>
+        <option value="diy">Diy</option>
+        <option value="charity">Charity</option>
+        <option value="cooking">Cooking</option>
+        <option value="relaxation">Relaxation</option>
+        <option value="music">Music</option>
+        <option value="busywork">Busywork</option>
+      </select>
+
+      <label for="participants">Number of participants:</label>
+      <select name="participants" id="participants">
+        <option value="all">It does not matter</option>
+        <option value="1">Only me</option>
+        <option value="2">A friend and I</option>
+        <option value="3">Three of us</option>
+        <option value="4">Four!</option>
+        <option value="5">Bunch of friends</option>
+      </select>
+
+      <label for="price">Money needed:</label>
+      <select name="price" id="price">
+        <option value="all">It is irrelevant</option>
+        <option value="0">No money needed</option>
+        <option value="1">Some funds needed</option>
+      </select>
+    </div>
+
+    <div class="random-activity"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
